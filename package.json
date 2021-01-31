@@ -33,6 +33,7 @@
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-root-import": "^6.6.0",
+    "chromatic": "^5.6.1",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
