@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Test } from '../Commons/CenterView';
+// import { Test } from '../Commons/CenterView';
 import { JumpoGateButton } from './JumpoGateButton';
 import { View } from 'react-native';
 import styled from 'styled-components/native';
@@ -59,76 +59,3 @@ Store.args = {
   borderColor: '#fe2c54',
 };
 
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-// };
-
-// export const Large = Template.bind({});
-// Large.args = {
-//   size: 'large',
-//   label: 'Button',
-// };
-
-// export const Small = Template.bind({});
-// Small.args = {
-//   size: 'small',
-//   label: 'Button',
-// };
-
-// storiesOf('점포거래 게이트', module)
-//   .addDecorator((getStory) => <CenterView>{(getStory() as ReactNode)}</CenterView>)
-//   .add('default ', () => {
-//     const firstName = text('First Title', '전체');
-//     const secondName = text('Second Title', '1층 다용도');
-//     const thirdName = text('Thrid Title', '편의점');
-//     const fourthName = text('Fourth Title', '의류판매');
-//     const width = number('Width', 74);
-//     const height = number('Height', 94);
-//     const borderColor = color("Border Color", "#fe2c54");
-
-//     return (
-//       <>
-//         <JumpoGateButton imageSrc={imageSrc.all} text={firstName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateRoom} text={secondName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateStore} text={thirdName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateTshrit} text={fourthName} width={width} height={height} borderColor={borderColor} />
-//       </>
-//     )
-//   })
-//   .add('large ', () => {
-//     const firstName = text('First Title', '전체');
-//     const secondName = text('Second Title', '1층 다용도');
-//     const thirdName = text('Thrid Title', '편의점');
-//     const fourthName = text('Fourth Title', '의류판매');
-//     const width = number('Width', 94);
-//     const height = number('Height', 114);
-//     const borderColor = color("Border Color", "#fe2c54");
-
-//     return (
-//       <>
-//         <JumpoGateButton imageSrc={imageSrc.all} text={firstName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateRoom} text={secondName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateStore} text={thirdName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateTshrit} text={fourthName} width={width} height={height} borderColor={borderColor} />
-//       </>
-//     )
-//   })
-//   .add('black border ', () => {
-//     const firstName = text('First Title', '전체');
-//     const secondName = text('Second Title', '1층 다용도');
-//     const thirdName = text('Thrid Title', '편의점');
-//     const fourthName = text('Fourth Title', '의류판매');
-//     const width = number('Width', 74);
-//     const height = number('Height', 94);
-//     const borderColor = color("Border Color", "black");
-
-//     return (
-//       <>
-//         <JumpoGateButton imageSrc={imageSrc.all} text={firstName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateRoom} text={secondName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateStore} text={thirdName} width={width} height={height} borderColor={borderColor} />
-//         <JumpoGateButton imageSrc={imageSrc.gateTshrit} text={fourthName} width={width} height={height} borderColor={borderColor} />
-//       </>
-//     )
-//   });

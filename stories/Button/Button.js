@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button as NativeButton, View, ActivityIndicator } from 'react-native';
-import './button.css';
+// import './button.css';
+// import './button.css';
 import styled from 'styled-components/native';
 
 const TestButton = styled.Button`
